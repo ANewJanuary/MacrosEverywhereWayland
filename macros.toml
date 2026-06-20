@@ -17,4 +17,4 @@ select_timeout = 10.0
 # Seconds to pause at each settle point (after creating the virtual
 # keyboard/before grabbing devices, before typing the snippet, before
 # starting tab-stop navigation).
-sleep = 0.05
+sleep = 0.15
