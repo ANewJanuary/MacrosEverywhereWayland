@@ -88,7 +88,7 @@ Seconds of inactivity before a tab-stop cycling session gives up and releases th
 ```
 select_timeout = 10.0
 ```
-Seconds to pause at each settle point (after creating the virtual keyboard/before grabbing devices, before typing the snippet, before starting tab-stop navigation). Make it at least 0.1 or 0.15, because otherwise for some reason things don't work.
+Seconds to pause at each settle point (after creating the virtual keyboard/before grabbing devices, before typing the snippet, before starting tab-stop navigation). Make it at least 0.2 or 0.25, because otherwise the arrow keys do not work.
 ```
-sleep = 0.15
+sleep = 0.2
 ```
